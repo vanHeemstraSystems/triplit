@@ -1,0 +1,8 @@
+# Commands that will run on workspace start
+tasks:
+    - name: Upgrade NPM to version 10.3.0
+      before: cd containers/app
+      init: npm install -g npm@10.3.0
+    - name: Install PNPM to version 8.14.1
+      before: cd containers/app
+      init: npm install -g pnpm@8.14.1     
