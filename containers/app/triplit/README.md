@@ -64,13 +64,15 @@ npm install
 
 This will install all the required dependencies correctly.
 
+Copy the ```.env.example``` to ```.env``` and complete the variables inside of this file with your true values, including secrets.
+
 Continue with:
 
 ```
 $  pnpm run dev
 ```
 
-**NOTE**: If you get the error ```Missing required params: [token, server]. Skipping sync connection.```, ... (solution to go here).
+**NOTE**: If you get the error ```Missing required params: [token, server]. Skipping sync connection.``` this is most likely because you did not provide the required environment variables (such as NEXTAUTH_SECRET) in ```.env file```.
 
 ### Existing projects
 
