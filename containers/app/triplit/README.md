@@ -64,7 +64,7 @@ npm install
 
 This will install all the required dependencies correctly.
 
-Copy the ```.env.example``` to ```.env``` and complete the variables inside of this file with your true values, including secrets.
+Copy the ```.env.example``` to ```.env``` and complete the variables inside of this file with your true values, including secrets. See for tokens https://www.triplit.dev/docs/guides/auth
 
 Continue with:
 
