@@ -2,6 +2,8 @@
 
 Based on "Triplit - Getting Started" at https://www.triplit.dev/docs/getting-started
 
+Based on "Lofi/7 (@Local-First) Meetup #7 -- Tuesday August 29th at 11AM EST" at https://www.youtube.com/watch?v=SEB-hF1F-UU&t=1465s
+
 ## Installation
 
 ### Templating
