@@ -19,6 +19,22 @@ After installation run:
 ```
 $  cd my-triplit-app
 $  pnpm install
+```
+
+**NOTE**: An *UNMET PEER DEPENDENCY* error is thrown when the dependencies of one or more modules specified in the package.json file is not met. Check the warnings carefully and update the package.json file with correct versions of dependencies.
+
+Then run
+```
+rm -rf node_modules/
+npm cache clean
+npm install
+```
+
+This will install all the required dependencies correctly.
+
+Continue with:
+
+```
 $  pnpm run dev
 ```
 
