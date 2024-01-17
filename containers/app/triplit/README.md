@@ -64,7 +64,9 @@ npm install
 
 This will install all the required dependencies correctly.
 
-Copy the ```.env.example``` to ```.env``` and complete the variables inside of this file with your true values, including secrets. See for tokens https://www.triplit.dev/docs/guides/auth
+**NOTE**: Now is the time to read the ```/containers/app/my-triplit-chat/README.md``` file, as further instructions are given there that are mandatory.
+
+From the above README.md for example it instructs you to copy the ```.env.example``` to ```.env``` and complete the variables inside of this file with your true values, including secrets. See for tokens https://www.triplit.dev/docs/guides/auth
 
 Continue with:
 
