@@ -9,13 +9,13 @@ Based on "Triplit - Getting Started" at https://www.triplit.dev/docs/getting-sta
 If you would like to scaffold a complete full stack application with Triplit, you can use the ```create``` command:
 
 ```
-$ pnpm create triplit-app triplit
+$ pnpm create triplit-app my-triplit-app
 ```
 
 You can also use the ```create``` command to create a new Triplit project from a template. For example, to create a new Triplit project with a [working chat application](https://github.com/aspen-cloud/triplit/tree/main/templates/chat-template#readme):
 
 ```
-$ pnpm create triplit-app chat --template=chat
+$ pnpm create triplit-app my-triplit-chat --template=chat
 ```
 
 ### Existing projects
