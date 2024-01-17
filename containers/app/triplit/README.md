@@ -66,15 +66,19 @@ This will install all the required dependencies correctly.
 
 **NOTE**: Now is the time to read the ```/containers/app/my-triplit-chat/README.md``` file, as further instructions are given there that are mandatory.
 
-From the above README.md for example it instructs you to copy the ```.env.example``` to ```.env``` and complete the variables inside of this file with your true values, including secrets. See for tokens https://www.triplit.dev/docs/guides/auth
+Continue in one terminal window with:
 
-Continue with:
-
-```
-$  pnpm run dev
+```bash
+$  yarn dev
 ```
 
-**NOTE**: If you get the error ```Missing required params: [token, server]. Skipping sync connection.``` this is most likely because you did not provide the required environment variables (such as NEXTAUTH_SECRET) in ```.env file```.
+And in another terminal window with:
+
+```bash
+$ yarn triplit dev
+```
+
+**NOTE**: If you get the error ```Missing required params: [token, server]. Skipping sync connection.``` this is most likely because you did not provide the required environment variables (such as NEXTAUTH_SECRET) in ```.env file```. See the ```/containers/app/my-triplit-chat/README.md``` file.
 
 ### Existing projects
 
