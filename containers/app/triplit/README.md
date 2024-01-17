@@ -46,6 +46,30 @@ You can also use the ```create``` command to create a new Triplit project from a
 $ pnpm create triplit-app my-triplit-chat --template=chat
 ```
 
+After installation run:
+
+```
+$  cd my-triplit-chat
+$  pnpm install
+```
+
+**NOTE**: An *UNMET PEER DEPENDENCY* error is thrown when the dependencies of one or more modules specified in the package.json file is not met. Check the warnings carefully and update the package.json file with correct versions of dependencies.
+
+Then run
+```
+rm -rf node_modules/
+npm cache clean
+npm install
+```
+
+This will install all the required dependencies correctly.
+
+Continue with:
+
+```
+$  pnpm run dev
+```
+
 ### Existing projects
 
 If you have an existing project, Triplit also provides a CLI for creating and managing Triplit projects. Install the CLI in your project:
