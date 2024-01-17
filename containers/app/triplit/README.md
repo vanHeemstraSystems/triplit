@@ -70,6 +70,8 @@ Continue with:
 $  pnpm run dev
 ```
 
+**NOTE**: If you get the error ```Missing required params: [token, server]. Skipping sync connection.```, ... (solution to go here).
+
 ### Existing projects
 
 If you have an existing project, Triplit also provides a CLI for creating and managing Triplit projects. Install the CLI in your project:
