@@ -80,6 +80,12 @@ $ yarn triplit dev
 
 **NOTE**: If you get the error ```Missing required params: [token, server]. Skipping sync connection.``` this is most likely because you did not provide the required environment variables (such as NEXTAUTH_SECRET) in ```.env file```. See the ```/containers/app/my-triplit-chat/README.md``` file.
 
+You can access your local Triplit services at the following local URLs:
+┌──────────────────────────────────────────────┐
+│ 🟢 Console             http://localhost:6542 │
+│ 🟢 Database            http://localhost:6543 │
+└──────────────────────────────────────────────┘
+
 ### Existing projects
 
 If you have an existing project, Triplit also provides a CLI for creating and managing Triplit projects. Install the CLI in your project:
